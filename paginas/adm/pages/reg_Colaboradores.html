@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <div class="logo"><a href="../adm.html"><img src="../../imagem/logo.jpg" alt="Logo"></a></div>
+            <div><a href="#">Sair</a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="corpo">
+            <div class="menu-lateral">
+                <ul>
+                    <li><a href="Reg_Obras.html">Registro de Obras</a></li>
+                    <li><a href="reg_Colaboradores.html">Registros de Colaboradores</a></li>
+                    <li><a href="reg_folga_ferias.html">Registro de Folga e Ferias</a></li>
+                    <li><a href="absenteismo.html">Absenteísmo</a></li>
+                    <li><a href="reg_pagamentos.html">Registro de Requisição de Pagamentos</a></li>
+                    <li><a href="reg_compras.html">Pedido de Compras</a></li>
+                    <li><a href="notas_pagamento.html">Lançar Notas de Pagamentos</a></li>
+                    <li><a href="reg_fornecedores.html">Registro de Fornecedores</a></li>
+                    <li><a href="conog_pagamentos.html">Cronograma de Pagamentos</a></li>
+                    <li><a href="reg_treinamentos.html">Registro de Treinamentos e Certificados</a></li>
+                    <li><a href="reg_cartaAnuencia.html">Registro de Cartas de Anuência</a></li>
+                    <li><a href="reg_estoque_epi.html">Registro de Estoque de Epi</a></li>
+                    <li><a href="reg_entrega_epi.html">Registro de Entrega de Epi</a></li>
+                    <li><a href="reg_pedidos_epi.html">Registro de Pedidos de Epi</a></li>
+                    <li><a href="cron_treinamentos.html">Cronograma de Treinamento</a></li>
+                </ul>
+            </div>
+            <div class="corpo-form">
+                <h2>Registro de Colaboradores:</h2>
+                <form class="form">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf">
+                
+                    <label for="rg">RG:</label>
+                    <input type="text" id="rg" name="rg">
+                
+                    <label for="ctps">Cópia da Carteira de Trabalho (Dados pessoais e dados das contratações):</label>
+                    <textarea id="ctps" name="ctps"></textarea>
+                
+                    <label for="pispasep">PIS/PASEP:</label>
+                    <input type="text" id="pispasep" name="pispasep">
+                
+                    <label for="comprovante_residencia">Comprovante de residência atualizado:</label>
+                    <input type="text" id="comprovante_residencia" name="comprovante_residencia">
+                
+                    <label for="cnh">CNH:</label>
+                    <input type="text" id="cnh" name="cnh">
+                
+                    <label for="dependentes">RG e CPF dos filhos dependentes menores de 21 anos ou dependente com invalidez:</label>
+                    <textarea id="dependentes" name="dependentes"></textarea>
+                
+                    <label for="certidao">Certidão de casamento ou nascimento:</label>
+                    <input type="text" id="certidao" name="certidao">
+                
+                    <label for="escolaridade">Comprovante de escolaridade – Registro Escolar:</label>
+                    <input type="text" id="escolaridade" name="escolaridade">
+                
+                    <label for="telefone_contato">Telefone para contato:</label>
+                    <input type="tel" id="telefone_contato" name="telefone_contato">
+                
+                    <label for="telefone_familiar">Telefone para contato de um familiar:</label>
+                    <input type="tel" id="telefone_familiar" name="telefone_familiar">
+                
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                
+                    <label for="assinatura">Assinatura em folha em branco para cadastro no sistema de ponto digital:</label>
+                    <input type="text" id="assinatura" name="assinatura">
+                
+                    <label for="dados_bancarios">Dados bancários e PIX:</label>
+                    <textarea id="dados_bancarios" name="dados_bancarios"></textarea>
+                
+                    <label for="cartao_vacina">Cartão de vacina atualizado:</label>
+                    <input type="text" id="cartao_vacina" name="cartao_vacina">
+                
+                    <label for="tamanho_bota">Tamanho da bota nº:</label>
+                    <input type="number" id="tamanho_bota" name="tamanho_bota">
+                
+                    <label for="tamanho_camisa">Tamanho da camisa:</label>
+                    <select id="tamanho_camisa" name="tamanho_camisa">
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                    </select>
+                
+                    <label for="tamanho_calca">Tamanho da calça nº:</label>
+                    <input type="number" id="tamanho_calca" name="tamanho_calca">
+                
+                    <label for="foto">1 Fotografia 3X4:</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                
+                    <label for="exame_medico">Exame médico (ASO admissional e outros exames complementares, se necessário):</label>
+                    <textarea id="exame_medico" name="exame_medico"></textarea>
+                
+                    <label for="registro_profissional">Registro profissional no ministério do trabalho (No caso de Técnico de segurança do trabalho):</label>
+                    <input type="text" id="registro_profissional" name="registro_profissional">
+                
+                    <label for="cartao_sus">CARTÃO SUS:</label>
+                    <input type="text" id="cartao_sus" name="cartao_sus">
+                
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
